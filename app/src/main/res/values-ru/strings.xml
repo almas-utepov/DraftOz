@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draft</string>
+    <string name="MyProfile">Мой профиль</string>
+    <string name="ZhekeDerekter">Личные данные</string>
+    <string name="KupiaSozdiOzgertu">Изменить пароль</string>
+    <string name="language">Язык</string>
+    <string name="QarangyReazhim">Темный режим</string>
+    <string name="Ondeu">Переписать</string>
+    <string name="Profile">Профиль</string>
+    <string name="January">Январь</string>
+    <string name="February">Февраль</string>
+    <string name="March">Март</string>
+    <string name="April">Апрель</string>
+    <string name="May">Май</string>
+    <string name="June">Июнь</string>
+    <string name="July">Июль</string>
+    <string name="August">Август</string>
+    <string name="September">Сентябрь</string>
+    <string name="October">Октябрь</string>
+    <string name="November">Ноябрь</string>
+    <string name="December">Декабрь</string>
+    <string name="exit">Выйти</string>
+    <string name="question">Вы действительно хотите с аккаунта</string>
+    <string name="yesExit">Да, выйти</string>
+    <string name="No">Нет</string>
+    <string name="SelectDate">Выберите свое день рождение</string>
+</resources>

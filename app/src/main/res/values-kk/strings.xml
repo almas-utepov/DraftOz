@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draft</string>
+    <string name="MyProfile">Менің профилім</string>
+    <string name="ZhekeDerekter">Жеке деректер</string>
+    <string name="KupiaSozdiOzgertu">Құпия сөзді өзгерту</string>
+    <string name="language">Тіл</string>
+    <string name="QarangyReazhim">Қараңғы режим</string>
+    <string name="Ondeu">Өңдеу</string>
+    <string name="Profile">Профиль</string>
+    <string name="January">Қаңтар</string>
+    <string name="February">Ақпан</string>
+    <string name="March">Наурыз</string>
+    <string name="April">Сәуір</string>
+    <string name="May">Мамыр</string>
+    <string name="June">Маусым</string>
+    <string name="July">Шілде</string>
+    <string name="August">Тамыз</string>
+    <string name="September">Қыркүйек</string>
+    <string name="October">Қазан</string>
+    <string name="November">Қараша</string>
+    <string name="December">Желтоқсан</string>
+    <string name="exit">Шығу</string>
+    <string name="question">Сіз шынымен аккаунтыңыздан</string>
+    <string name="yesExit">Иә, шығу</string>
+    <string name="No">Жоқ</string>
+    <string name="SelectDate">Туылған күніңізді таңдаңыз</string>
+</resources>

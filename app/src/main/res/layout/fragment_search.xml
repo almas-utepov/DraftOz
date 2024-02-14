@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.ui.fragmentMain.SearchFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextSearchMovie"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/style_edittext_on_any_touch"
+        android:fontFamily="@font/sf_regular"
+        android:hint="Іздеу"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="45dp"
+        android:textColor="?attr/colorOnPrimary"
+        android:textColorHint="@color/grey_400"
+        android:theme="@style/style_editText_Oz"
+        app:layout_constraintEnd_toStartOf="@+id/btnSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/btnRefreshEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_refresh_icon"
+            app:layout_constraintTop_toTopOf="@id/editTextSearchMovie"
+            app:layout_constraintBottom_toBottomOf="@id/editTextSearchMovie"
+            app:layout_constraintEnd_toEndOf="@id/editTextSearchMovie"
+            android:layout_marginEnd="18dp"
+            />
+
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/button_search_fragment_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sanattarConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+
+        app:layout_constraintTop_toBottomOf="@id/btnSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/sf_bold"
+
+            android:text="Санаттар"
+            android:textColor="?attr/colorOnPrimary"
+
+            android:textSize="24dp"
+            app:layout_constraintStart_toStartOf="@id/sanattarConstraintLayout"
+            app:layout_constraintTop_toTopOf="@id/sanattarConstraintLayout" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOzinshe1"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:background="@drawable/button_search_fragment_sanattar"
+
+            android:fontFamily="@font/sf_semibold"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:textAllCaps="false"
+            android:text="ÖZINŞE–де танымал"
+            android:textSize="12sp"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTelehikaya5"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+
+            android:background="@drawable/button_search_fragment_sanattar"
+            android:fontFamily="@font/sf_semibold"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Телехикаялар"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/btnOzinshe1"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTolyqMultFilm8"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+
+
+            android:background="@drawable/button_search_fragment_sanattar"
+            android:fontFamily="@font/sf_semibold"
+            android:textColor="?attr/colorOnPrimary"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Толықметрлі мультфильмдер"
+            android:textAllCaps="false"
+
+
+            android:textSize="12sp"
+
+            app:layout_constraintTop_toBottomOf="@id/btnOzinshe1"
+            app:layout_constraintStart_toStartOf="@id/btnOzinshe1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMult9"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+            android:clipToOutline="true"
+            android:longClickable="true"
+            android:background="@drawable/button_search_fragment_sanattar"
+            android:fontFamily="@font/sf_semibold"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Мультсериалдар"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/btnTolyqMultFilm8"
+            app:layout_constraintStart_toStartOf="@id/btnOzinshe1"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSitkomdar31"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+
+            android:background="@drawable/button_search_fragment_sanattar"
+            android:fontFamily="@font/sf_semibold"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Ситкомдар"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/btnTolyqMultFilm8"
+            app:layout_constraintStart_toEndOf="@id/btnMult9"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchResultConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editTextSearchMovie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/searchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/sf_bold"
+
+            android:text="Іздеу нәтижелері"
+            android:textColor="?attr/colorOnPrimary"
+
+            android:textSize="24dp"
+            app:layout_constraintStart_toStartOf="@id/searchResultConstraintLayout"
+            app:layout_constraintTop_toTopOf="@id/searchResultConstraintLayout"
+            app:layout_constraintBottom_toTopOf="@id/rcViewSearchFragment"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcViewSearchFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="@id/searchResultConstraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/searchTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

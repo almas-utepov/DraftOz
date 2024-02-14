@@ -1,0 +1,145 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Draft" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="colorButtonNormal">@color/primary_500</item>
+        <item name="strokeColor">@color/grey_200</item>
+        <item name="track">@color/grey_300</item>
+        <!-- Text -->
+        <item name="colorOnPrimary">@color/grey_900</item>
+        <item name="backgroundColorOnSwitchOff">@color/grey_100</item>
+        <item name="backgroundColorOnSwitchOn">@color/primary_400</item>
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondary">@color/grey_100</item>
+        <item name="colorSecondaryVariant">@color/primary_50</item>
+        <item name="seekBarStyle">@color/primary_500</item>
+        <item name="colorOnSecondary">@color/grey_400</item>
+        <item name="colorSwitchThumbNormal">@color/grey_300</item>
+        <!-- Status bar color. -->
+        <item name="iconTint">@color/grey_800</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="bottomSheetStyle">@drawable/about_film_style_top_radius_32dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="hintEnabled">false</item>
+        <item name="android:topLeftRadius">15dp</item>
+        <item name="android:topRightRadius">15dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="colorButtonNormal">@color/primary_500</item>
+        <item name="strokeColor">@color/grey_200</item>
+        <item name="track">@color/grey_300</item>
+        <!-- Text -->
+        <item name="colorOnPrimary">@color/grey_900</item>
+        <item name="backgroundColorOnSwitchOff">@color/grey_100</item>
+        <item name="backgroundColorOnSwitchOn">@color/primary_400</item>
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondary">@color/grey_100</item>
+        <item name="colorSecondaryVariant">@color/primary_50</item>
+        <item name="seekBarStyle">@color/primary_500</item>
+        <item name="colorOnSecondary">@color/grey_400</item>
+        <item name="colorSwitchThumbNormal">@color/grey_300</item>
+        <!-- Status bar color. -->
+        <item name="iconTint">@color/grey_800</item>
+    </style>
+
+    <style name="MyMaterialToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!-- Header panel -->
+        <item name="materialCalendarHeaderLayout">@style/MaterialCalendar.HeaderLayout1</item>
+        <item name="itemTextColor">@color/grey_900</item>
+        <item name="buttonBarPositiveButtonStyle">@style/TextButton.Dialog1</item>
+        <item name="buttonBarNegativeButtonStyle">@style/TextButton.Dialog1</item>
+    </style>
+    <style name="MaterialCalendar.HeaderLayout1" parent="Widget.MaterialComponents.MaterialCalendar.HeaderLayout">
+        <!--<item name="android:background">?attr/colorPrimary</item>-->
+        <item name="android:background">@color/primary_400</item>
+    </style>
+    <style name="TextButton.Dialog1" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="titleTextColor">@color/primary_400</item>
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+
+    <style name="MaterialDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!-- Внешний вид года в списке годов -->
+        <item name="android:yearListItemTextAppearance">@style/DatePicker.YearListItemTextAppearance</item>
+        <!-- Внешний вид даты в списке дат -->
+
+        <!-- Внешний вид текста дней недели в заголовке календаря -->
+        <item name="android:dayOfWeekTextAppearance">@style/DatePicker.DayOfWeekTextAppearance</item>
+
+        <!-- Цвет фона календаря -->
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="itemTextColor">@color/grey_900</item>
+        <item name="android:subtitleTextColor">@color/primary_900</item>
+        <item name="materialCalendarStyle">@style/MaterialDatePicker.CalendarStyle</item>
+        <!-- Цвет текста в календаре -->
+        <item name="android:textColorSecondary">@color/grey_900</item>
+        <!-- Цвет кнопки "ОК" -->
+        <item name="colorPrimary">@color/primary_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Цвет кнопки "Отмена" -->
+        <item name="colorSecondary">@color/primary_300</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Цвет заголовка диалога -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorAccent">@color/grey_900</item>
+
+    </style>
+
+    <style name="DatePicker.YearListItemTextAppearance" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/primary_900</item>
+    </style>
+
+    <style name="DatePicker.DateListItemTextAppearance" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="DatePicker.DayOfWeekTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/primary_900</item>
+    </style>
+
+    <!-- Стиль календаря -->
+    <style name="MaterialDatePicker.CalendarStyle" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="android:background">@color/white</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="actionMenuTextColor">@color/green</item>
+
+
+
+    </style>
+    <!-- Стиль кнопок -->
+    <style name="MaterialDatePicker.ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/grey_700</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="itemTextColor">@color/grey_900</item>
+
+
+    </style>
+    <!-- Стиль заголовка диалога -->
+    <style name="MaterialDatePicker.DialogTitleStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="itemTextColor">@color/grey_900</item>
+    </style>
+
+</resources>

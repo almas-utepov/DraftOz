@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Draft" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/grey_800</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="backgroundColor">@color/grey_900</item>
+        <item name="colorButtonNormal">@color/primary_500</item>
+        <item name="strokeColor">@color/grey_700</item>
+        <item name="track">@color/primary_400</item>
+        <!-- Text -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColorOnSwitchOff">@color/grey_700</item>
+        <item name="backgroundColorOnSwitchOn">@color/primary_400</item>
+        <!-- Secondary brand color. -->
+        <item name="iconTint">@color/white</item>
+        <item name="seekBarStyle">@color/primary_500</item>
+        <item name="colorSecondary">@color/grey_800</item>
+        <item name="colorSecondaryVariant">@color/grey_800</item>
+        <item name="colorOnSecondary">@color/grey_400</item>
+
+        <!-- Status bar color. -->
+        <item name="colorSwitchThumbNormal">@color/primary_400</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="bottomSheetStyle">@drawable/about_film_style_top_radius_32dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="hintEnabled">false</item>
+        <item name="android:topLeftRadius">15dp</item>
+        <item name="android:topRightRadius">15dp</item>
+        <item name="android:background">@android:color/transparent</item>
+
+        <item name="colorPrimary">@color/grey_800</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="backgroundColor">@color/grey_900</item>
+        <item name="colorButtonNormal">@color/primary_500</item>
+        <item name="strokeColor">@color/grey_700</item>
+        <item name="track">@color/primary_400</item>
+        <!-- Text -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColorOnSwitchOff">@color/grey_700</item>
+        <item name="backgroundColorOnSwitchOn">@color/primary_400</item>
+        <!-- Secondary brand color. -->
+        <item name="iconTint">@color/white</item>
+        <item name="seekBarStyle">@color/primary_500</item>
+        <item name="colorSecondary">@color/grey_800</item>
+        <item name="colorSecondaryVariant">@color/grey_800</item>
+        <item name="colorOnSecondary">@color/grey_400</item>
+    </style>
+    <style name="MyMaterialToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="colorPrimary">@color/grey_900</item>
+        <item name="colorPrimaryVariant">@color/primary_500</item>
+        <item name="backgroundColor">@color/primary_900</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+
+        <!-- Header panel -->
+        <item name="materialCalendarHeaderLayout">@style/MaterialCalendar.HeaderLayout1</item>
+        <!-- Buttons -->
+        <item name="buttonBarPositiveButtonStyle">@style/TextButton.Dialog1</item>
+        <item name="buttonBarNegativeButtonStyle">@style/TextButton.Dialog1</item>
+    </style>
+    <style name="MaterialCalendar.HeaderLayout1" parent="Widget.MaterialComponents.MaterialCalendar.HeaderLayout">
+        <!--<item name="android:background">?attr/colorPrimary</item>-->
+        <item name="android:background">@color/primary_50</item>
+    </style>
+    <style name="TextButton.Dialog1" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_50</item>
+    </style>
+</resources>

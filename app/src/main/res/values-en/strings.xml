@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draft</string>
+    <string name="MyProfile">My profile</string>
+    <string name="ZhekeDerekter">Personal information</string>
+    <string name="KupiaSozdiOzgertu">Change password</string>
+    <string name="language">Language</string>
+    <string name="QarangyReazhim">Dark mode</string>
+    <string name="Ondeu">Overwrite</string>
+    <string name="Profile">Profile</string>
+    На английском:
+
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="exit">Exit</string>
+    <string name="question">You seriosly at account</string>
+    <string name="yesExit">Yes, exit</string>
+    <string name="No">No</string>
+    <string name="SelectDate">Select you birth day</string>
+</resources>

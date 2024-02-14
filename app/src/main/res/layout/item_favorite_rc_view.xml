@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgFavorite"
+        android:layout_width="71dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/style_corner_for_image_8dp"
+        app:srcCompat="@drawable/ic_main_icon_app" />
+    <TextView
+        android:id="@+id/textTvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="24dp"
+        android:ellipsize="end"
+        app:layout_constraintStart_toEndOf="@id/imgFavorite"
+        app:layout_constraintTop_toTopOf="@id/imgFavorite"
+        android:fontFamily="@font/sf_bold"
+        android:textColor="?attr/colorOnPrimary"
+        android:text=""/>
+    <TextView
+        android:id="@+id/textTvYear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="17dp"
+
+
+        app:layout_constraintStart_toEndOf="@id/imgFavorite"
+        app:layout_constraintTop_toBottomOf="@id/textTvTitle"
+        android:fontFamily="@font/sf_medium"
+        android:textSize="12sp"
+        android:textColor="@color/grey_400"
+        android:text="              "/>
+
+    <TextView
+        android:id="@+id/textTvGenres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/sf_medium"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/grey_400"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textTvYear"
+        app:layout_constraintTop_toTopOf="@id/textTvYear" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWatchVideo"
+        android:layout_width="80dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_show_favorite"
+        app:layout_constraintBottom_toBottomOf="@id/imgFavorite"
+        app:layout_constraintStart_toEndOf="@id/imgFavorite" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

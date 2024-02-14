@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.MainActivity"
+    android:id="@+id/mainActivity"
+    android:fitsSystemWindows="false"
+    >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:outlineProvider="background"
+        android:background="?attr/backgroundColor"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:id="@+id/linerLayoutToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="24dp"
+
+            android:layout_marginBottom="8dp">
+
+            <ImageButton
+
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/fui_transparent"
+                android:src="@drawable/ic_button_back"
+                app:layout_constraintStart_toStartOf="@id/linerLayoutToolbar"
+                app:layout_constraintTop_toTopOf="@id/linerLayoutToolbar"
+                app:layout_constraintBottom_toBottomOf="@id/linerLayoutToolbar"/>
+
+            <TextView
+                android:id="@+id/titleToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/sf_bold"
+                android:gravity="center"
+                android:text="Іздеу"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@id/linerLayoutToolbar"
+                app:layout_constraintEnd_toEndOf="@id/linerLayoutToolbar"
+                app:layout_constraintTop_toTopOf="@id/linerLayoutToolbar"
+                app:layout_constraintBottom_toBottomOf="@id/linerLayoutToolbar"/>
+
+            <ImageButton
+                android:id="@+id/btnExit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/fui_transparent"
+                android:src="@drawable/ic_button_exit"
+
+                app:layout_constraintEnd_toEndOf="@id/linerLayoutToolbar"
+                app:layout_constraintTop_toTopOf="@id/linerLayoutToolbar"
+                app:layout_constraintBottom_toBottomOf="@id/linerLayoutToolbar"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationBarMainActivity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:navGraph="@navigation/nav_graph" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationBarMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:animateLayoutChanges="false"
+        android:background="?attr/colorPrimary"
+        android:clickable="false"
+        app:itemIconSize="40dp"
+        app:itemIconTint="@color/grey_400"
+        app:itemRippleColor="@color/fui_transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navbar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
