@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentAdditional
+package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
 
 import MonthChange
@@ -15,17 +15,17 @@ import androidx.navigation.fragment.findNavController
 import com.github.ihermandev.formatwatcher.FormatWatcher
 import com.google.android.material.datepicker.MaterialDatePicker
 import kotlinx.coroutines.launch
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.UserInfoRequest
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentInfoBinding
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.UserInfoRequest
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentInfoBinding
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 import java.text.SimpleDateFormat
 import java.util.*
-import kz.mobydev.draft.data.network.model.UserInfo
+import kz.qazaq.qarapkor.data.network.model.UserInfo
 
 class InfoFragment : Fragment() {
 
@@ -194,7 +194,6 @@ class InfoFragment : Fragment() {
                         )
                     )
                 }
-
                 findNavController().navigate(R.id.action_infoFragment_to_profileFragment)
             }
         }

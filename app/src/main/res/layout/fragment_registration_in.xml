@@ -225,6 +225,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginBottom="24dp"
             android:background="@drawable/button_shape"
+            android:backgroundTint="#FABB05"
             android:fontFamily="@font/sf_semibold"
             android:text="Кіру"
             android:textColor="@color/white" />
@@ -258,7 +259,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/sf_semibold"
             android:text="Кіру"
-            android:textColor="@color/primary_300" />
+            android:textColor="#FABB05" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

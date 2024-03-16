@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentMain
+package kz.qazaq.qarapkor.presentation.ui.fragmentMain
 
 import android.os.Build
 import android.os.Bundle
@@ -12,21 +12,21 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import kotlinx.coroutines.launch
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.CategoryId
-import kz.mobydev.draft.data.network.model.CategoryMovieResponse
-import kz.mobydev.draft.data.network.model.MovieIdModel
-import kz.mobydev.draft.data.network.model.NamePage
-import kz.mobydev.draft.data.network.model.SearchResponseModel
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentSearchBinding
-import kz.mobydev.draft.domain.Utils.CustomDividerItemDecoration
-import kz.mobydev.draft.domain.adapter.CategoryMovieAdapter
-import kz.mobydev.draft.domain.adapter.SearchMovieAdapter
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.CategoryId
+import kz.qazaq.qarapkor.data.network.model.CategoryMovieResponse
+import kz.qazaq.qarapkor.data.network.model.MovieIdModel
+import kz.qazaq.qarapkor.data.network.model.NamePage
+import kz.qazaq.qarapkor.data.network.model.SearchResponseModel
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentSearchBinding
+import kz.qazaq.qarapkor.domain.Utils.CustomDividerItemDecoration
+import kz.qazaq.qarapkor.domain.adapter.CategoryMovieAdapter
+import kz.qazaq.qarapkor.domain.adapter.SearchMovieAdapter
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 class SearchFragment : Fragment() {
 

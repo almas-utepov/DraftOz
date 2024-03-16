@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentAdditional
+package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
 import androidx.navigation.fragment.findNavController
 import com.github.chrisbanes.photoview.PhotoView
-import kz.mobydev.draft.R
-import kz.mobydev.draft.databinding.FragmentSimilarBinding
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.databinding.FragmentSimilarBinding
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 class SimilarFragment : Fragment() {
 
@@ -31,7 +31,7 @@ class SimilarFragment : Fragment() {
             setNavigationVisibility(false)
             setNavigationToolBar(true,false)
             additionalToolBarConfig(true, btnExitVisible = false, titleVisible = true, title = "Ұқсас телехикаялар")
-            onClickListener(kz.mobydev.draft.R.id.action_similarFragment_to_aboutMovieFragment)
+            onClickListener(kz.qazaq.qarapkor.R.id.action_similarFragment_to_aboutMovieFragment)
         }
     }
 
@@ -43,7 +43,7 @@ class SimilarFragment : Fragment() {
             setNavigationVisibility(false)
             setNavigationToolBar(true,false)
             additionalToolBarConfig(true, btnExitVisible = false, titleVisible = true, title = "Ұқсас телехикаялар")
-            onClickListener(kz.mobydev.draft.R.id.action_similarFragment_to_aboutMovieFragment)
+            onClickListener(kz.qazaq.qarapkor.R.id.action_similarFragment_to_aboutMovieFragment)
         }
     }
 
@@ -51,7 +51,7 @@ class SimilarFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                findNavController().navigate(kz.mobydev.draft.R.id.action_similarFragment_to_aboutMovieFragment)
+                findNavController().navigate(kz.qazaq.qarapkor.R.id.action_similarFragment_to_aboutMovieFragment)
             }
         }
         requireActivity().getOnBackPressedDispatcher()

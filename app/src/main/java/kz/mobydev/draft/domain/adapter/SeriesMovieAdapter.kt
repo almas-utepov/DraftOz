@@ -1,13 +1,13 @@
-package kz.mobydev.draft.domain.adapter
+package kz.qazaq.qarapkor.domain.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import kz.mobydev.draft.data.network.model.FavoriteModel
-import kz.mobydev.draft.data.network.model.SeriesModel
-import kz.mobydev.draft.databinding.ItemSeriesRcViewBinding
+import kz.qazaq.qarapkor.data.network.model.FavoriteModel
+import kz.qazaq.qarapkor.data.network.model.SeriesModel
+import kz.qazaq.qarapkor.databinding.ItemSeriesRcViewBinding
 
 class SeriesMovieAdapter(
     private val seriesModelVideo:List<SeriesModel.SeriesModelItem.Video>,

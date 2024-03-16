@@ -1,4 +1,4 @@
-package kz.mobydev.draft.domain.usecase
+package kz.qazaq.qarapkor.domain.usecase
 
 import android.util.Patterns
 

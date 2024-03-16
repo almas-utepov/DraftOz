@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentLog
+package kz.qazaq.qarapkor.presentation.ui.fragmentLog
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -18,15 +18,15 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.navigation.fragment.findNavController
 
 
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.LoginRequest
-import kz.mobydev.draft.data.network.model.LoginResponse
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentLogInBinding
-import kz.mobydev.draft.domain.usecase.EmailValidationUseCase
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.LoginRequest
+import kz.qazaq.qarapkor.data.network.model.LoginResponse
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentLogInBinding
+import kz.qazaq.qarapkor.domain.usecase.EmailValidationUseCase
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

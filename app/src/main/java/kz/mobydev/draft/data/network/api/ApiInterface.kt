@@ -1,6 +1,6 @@
-package kz.mobydev.draft.data.network.api
+package kz.qazaq.qarapkor.data.network.api
 
-import kz.mobydev.draft.data.network.model.*
+import kz.qazaq.qarapkor.data.network.model.*
 import retrofit2.Call
 import retrofit2.Response
 import retrofit2.http.*
@@ -86,5 +86,14 @@ interface ApiInterface {
     @GET("/core/V1/genres")
     suspend fun getGenre(@Header("Authorization") token: String): GenreResponse
 
-
+    @GET("/core/V1/movies/page")
+    suspend fun getCategoryMovieType(
+        @Header("Authorization") token: String,
+        @Query("categoryId") categoryId: Int,
+        @Query("direction") direction: String,
+        @Query("page") page: Int,
+        @Query("size") size: Int,
+        @Query("sortField") sortField: String,
+        @Query("type") type: String
+    ):CategoryMovieResponse
 }

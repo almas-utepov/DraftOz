@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentLog.SplashFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentLog.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/logInFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentLog.LogInFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentLog.LogInFragment"
         android:label="fragment_log_in"
         tools:layout="@layout/fragment_log_in" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/registrationInFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentLog.RegistrationInFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentLog.RegistrationInFragment"
         android:label="fragment_registration_in"
         tools:layout="@layout/fragment_registration_in" >
         <action
@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentLog.WelcomeFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentLog.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -55,12 +55,12 @@
     </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentMain.FavoriteFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentMain.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentMain.ProfileFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentMain.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -82,7 +82,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentMain.MainFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentMain.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -98,12 +98,12 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentMain.SearchFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentMain.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/aboutMovieFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.AboutMovieFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.AboutMovieFragment"
         android:label="fragment_about_movie"
         tools:layout="@layout/fragment_about_movie" >
         <action
@@ -123,7 +123,7 @@
     </fragment>
     <fragment
         android:id="@+id/seriesFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.SeriesFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.SeriesFragment"
         android:label="fragment_series"
         tools:layout="@layout/fragment_series" >
         <action
@@ -134,7 +134,7 @@
     </fragment>
     <fragment
         android:id="@+id/videoPlayerFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.VideoPlayerFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.VideoPlayerFragment"
         android:label="fragment_video_player"
         tools:layout="@layout/fragment_video_player" >
         <action
@@ -145,7 +145,7 @@
     </fragment>
     <fragment
         android:id="@+id/infoFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.InfoFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.InfoFragment"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" >
         <action
@@ -156,7 +156,7 @@
     </fragment>
     <fragment
         android:id="@+id/categoriesFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.CategoriesFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.CategoriesFragment"
         android:label="fragment_categories"
         tools:layout="@layout/fragment_categories" >
         <action
@@ -167,7 +167,7 @@
     </fragment>
     <fragment
         android:id="@+id/imageFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.ImageFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.ImageFragment"
         android:label="fragment_image"
         tools:layout="@layout/fragment_image" >
         <action
@@ -178,7 +178,7 @@
     </fragment>
     <fragment
         android:id="@+id/similarFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.SimilarFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.SimilarFragment"
         android:label="fragment_similar"
         tools:layout="@layout/fragment_similar" >
         <action
@@ -189,7 +189,7 @@
     </fragment>
     <fragment
         android:id="@+id/rePasswordFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentAdditional.RePasswordFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentAdditional.RePasswordFragment"
         android:label="fragment_re_password"
         tools:layout="@layout/fragment_re_password" >
         <action
@@ -198,6 +198,11 @@
             app:popUpTo="@id/nav_graph"
             app:popUpToInclusive="true" />
     </fragment>
+    <fragment
+        android:id="@+id/recommendationFragment"
+        android:name="kz.mobydev.draft.presentation.ui.fragmentMain.RecommendationFragment"
+        android:label="fragment_recommendation"
+        tools:layout="@layout/fragment_recommendation" />
 
 
 </navigation>

@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentMain
+package kz.qazaq.qarapkor.presentation.ui.fragmentMain
 
 import android.content.res.Configuration
 import android.os.Build
@@ -14,16 +14,16 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import java.util.Locale
 import kotlinx.coroutines.launch
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.SelectLanguageModel
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentProfileBinding
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.bottomsheet.ExitAccount
-import kz.mobydev.draft.presentation.ui.bottomsheet.SelectLanguage
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.SelectLanguageModel
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentProfileBinding
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.bottomsheet.ExitAccount
+import kz.qazaq.qarapkor.presentation.ui.bottomsheet.SelectLanguage
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 
 class ProfileFragment : Fragment() {

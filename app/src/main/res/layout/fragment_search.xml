@@ -85,18 +85,18 @@
             android:id="@+id/btnOzinshe1"
             android:layout_width="wrap_content"
             android:layout_height="34dp"
-            android:background="@drawable/button_search_fragment_sanattar"
+            android:layout_marginTop="16dp"
 
+            android:background="@drawable/button_search_fragment_sanattar"
             android:fontFamily="@font/sf_semibold"
             android:paddingStart="16dp"
             android:paddingTop="8dp"
             android:paddingEnd="16dp"
             android:paddingBottom="8dp"
+            android:text="QarapKor-де танымал"
             android:textAllCaps="false"
-            android:text="ÖZINŞE–де танымал"
-            android:textSize="12sp"
             android:textColor="?attr/colorOnPrimary"
-            android:layout_marginTop="16dp"
+            android:textSize="12sp"
             app:layout_constraintStart_toStartOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 

@@ -1,4 +1,4 @@
-package kz.mobydev.draft.domain.Utils
+package kz.qazaq.qarapkor.domain.Utils
 
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable

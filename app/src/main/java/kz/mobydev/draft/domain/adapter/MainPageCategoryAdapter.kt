@@ -1,4 +1,4 @@
-package kz.mobydev.draft.domain.adapter
+package kz.qazaq.qarapkor.domain.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.model.MainPageModel
-import kz.mobydev.draft.data.network.model.MoviesMain
-import kz.mobydev.draft.databinding.ItemMainCategoryRcBinding
-import kz.mobydev.draft.databinding.ItemMainMovieRcBinding
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.model.MainPageModel
+import kz.qazaq.qarapkor.data.network.model.MoviesMain
+import kz.qazaq.qarapkor.databinding.ItemMainCategoryRcBinding
+import kz.qazaq.qarapkor.databinding.ItemMainMovieRcBinding
 
 
 

@@ -1,4 +1,4 @@
-package kz.mobydev.draft.domain.model
+package kz.qazaq.qarapkor.domain.model
 
 data class UserAuth(
     var email:String,

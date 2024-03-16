@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentAdditional
+package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,19 +14,19 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 
 import kotlinx.coroutines.launch
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.ImageLink
-import kz.mobydev.draft.data.network.model.LinkVideo
-import kz.mobydev.draft.data.network.model.MovieIdModel
-import kz.mobydev.draft.data.network.model.MovieInfoResponse
-import kz.mobydev.draft.data.network.model.SeriesModel
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentAboutMovieBinding
-import kz.mobydev.draft.domain.adapter.ImageAdapter
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.ImageLink
+import kz.qazaq.qarapkor.data.network.model.LinkVideo
+import kz.qazaq.qarapkor.data.network.model.MovieIdModel
+import kz.qazaq.qarapkor.data.network.model.MovieInfoResponse
+import kz.qazaq.qarapkor.data.network.model.SeriesModel
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentAboutMovieBinding
+import kz.qazaq.qarapkor.domain.adapter.ImageAdapter
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 class AboutMovieFragment : Fragment() {
     private var binding: FragmentAboutMovieBinding? = null

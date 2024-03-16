@@ -3,6 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:labelVisibilityMode="unlabeled">
     <item
+        android:id="@+id/recommendationFragment"
+        android:icon="@drawable/style_navbar_recommendation_action"
+        android:title="Recommendation"/>
+    <item
         android:id="@+id/mainFragment"
         android:icon="@drawable/style_navbar_home_action"
         android:title="Home"/>

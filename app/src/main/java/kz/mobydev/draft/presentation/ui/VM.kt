@@ -1,9 +1,9 @@
-package kz.mobydev.draft.presentation.ui
+package kz.qazaq.qarapkor.presentation.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import kz.mobydev.draft.data.network.model.*
-import kz.mobydev.draft.domain.Utils.SingleLiveEvent
+import kz.qazaq.qarapkor.data.network.model.*
+import kz.qazaq.qarapkor.domain.Utils.SingleLiveEvent
 
 class VM:ViewModel() {
         val namePageGenre = MutableLiveData<NamePage>()

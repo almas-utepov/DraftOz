@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentAdditional
+package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,19 +11,19 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import kotlinx.coroutines.launch
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.CategoryMovieResponse
-import kz.mobydev.draft.data.network.model.FavoriteModel
-import kz.mobydev.draft.data.network.model.MovieIdModel
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentCategoriesBinding
-import kz.mobydev.draft.domain.Utils.CustomDividerItemDecoration
-import kz.mobydev.draft.domain.adapter.CategoryMovieAdapter
-import kz.mobydev.draft.domain.adapter.FavoriteMovieAdapter
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.CategoryMovieResponse
+import kz.qazaq.qarapkor.data.network.model.FavoriteModel
+import kz.qazaq.qarapkor.data.network.model.MovieIdModel
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentCategoriesBinding
+import kz.qazaq.qarapkor.domain.Utils.CustomDividerItemDecoration
+import kz.qazaq.qarapkor.domain.adapter.CategoryMovieAdapter
+import kz.qazaq.qarapkor.domain.adapter.FavoriteMovieAdapter
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 class CategoriesFragment : Fragment() {
     private var binding: FragmentCategoriesBinding? = null

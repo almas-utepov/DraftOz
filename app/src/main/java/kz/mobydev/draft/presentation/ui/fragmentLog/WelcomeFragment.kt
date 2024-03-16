@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentLog
+package kz.qazaq.qarapkor.presentation.ui.fragmentLog
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,11 +8,11 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.WelcomePageInfoList
-import kz.mobydev.draft.databinding.FragmentWelcomeBinding
-import kz.mobydev.draft.domain.adapter.WelcomePageAdapter
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.WelcomePageInfoList
+import kz.qazaq.qarapkor.databinding.FragmentWelcomeBinding
+import kz.qazaq.qarapkor.domain.adapter.WelcomePageAdapter
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 
 class WelcomeFragment : Fragment() {

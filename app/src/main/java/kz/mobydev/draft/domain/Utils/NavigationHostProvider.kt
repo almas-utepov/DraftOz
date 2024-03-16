@@ -1,9 +1,9 @@
-package kz.mobydev.draft.domain.Utils
+package kz.qazaq.qarapkor.domain.Utils
 
 import android.view.View.OnClickListener
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import kz.mobydev.draft.databinding.ActivityMainBinding
-import kz.mobydev.draft.presentation.ui.bottomsheet.SelectLanguage
+import kz.qazaq.qarapkor.databinding.ActivityMainBinding
+import kz.qazaq.qarapkor.presentation.ui.bottomsheet.SelectLanguage
 
 interface NavigationHostProvider {
     fun setNavigationVisibility(visible: Boolean)

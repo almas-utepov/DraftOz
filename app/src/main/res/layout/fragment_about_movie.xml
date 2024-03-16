@@ -182,7 +182,6 @@
                     app:layout_constraintTop_toBottomOf="@id/textTvAdditionalInfoYear" />
 
                 <com.bosphere.fadingedgelayout.FadingEdgeLayout
-
                     android:id="@+id/fadingEdgeLayoutDescription"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

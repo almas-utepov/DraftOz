@@ -1,4 +1,4 @@
-package kz.mobydev.draft.data.network.model
+package kz.qazaq.qarapkor.data.network.model
 
 
 import com.google.gson.annotations.SerializedName

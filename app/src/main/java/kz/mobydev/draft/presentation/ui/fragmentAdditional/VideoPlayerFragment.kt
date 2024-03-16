@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentAdditional
+package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
 import android.content.pm.ActivityInfo
 import android.os.Bundle
@@ -19,10 +19,10 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.options.IFram
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.utils.loadOrCueVideo
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.ui.DefaultPlayerUiController
-import kz.mobydev.draft.R
-import kz.mobydev.draft.databinding.FragmentVideoPlayerBinding
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.databinding.FragmentVideoPlayerBinding
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 class VideoPlayerFragment : Fragment() {
 

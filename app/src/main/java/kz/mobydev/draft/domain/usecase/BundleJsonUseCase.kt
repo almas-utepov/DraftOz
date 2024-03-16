@@ -1,11 +1,11 @@
-package kz.mobydev.draft.domain.usecase
+package kz.qazaq.qarapkor.domain.usecase
 
 import android.content.Context
 import android.os.Bundle
 import com.google.gson.Gson
-import kz.mobydev.draft.data.network.model.FavoriteModel
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.domain.Utils.Constants
+import kz.qazaq.qarapkor.data.network.model.FavoriteModel
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.domain.Utils.Constants
 
 class BundleJsonUseCase() {
     private val gson = Gson()

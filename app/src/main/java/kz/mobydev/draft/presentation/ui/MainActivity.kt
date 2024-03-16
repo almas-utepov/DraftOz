@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui
+package kz.qazaq.qarapkor.presentation.ui
 
 import android.content.res.Configuration
 import android.graphics.Color
@@ -17,11 +17,11 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.util.Locale
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.ActivityMainBinding
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.ActivityMainBinding
 
-import kz.mobydev.draft.domain.Utils.NavigationHostProvider
+import kz.qazaq.qarapkor.domain.Utils.NavigationHostProvider
 
 
 class MainActivity : AppCompatActivity(), NavigationHostProvider {

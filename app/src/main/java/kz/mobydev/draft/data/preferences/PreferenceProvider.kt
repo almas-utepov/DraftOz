@@ -1,4 +1,4 @@
-package kz.mobydev.draft.data.preferences
+package kz.qazaq.qarapkor.data.preferences
 
 import android.content.Context
 import android.content.SharedPreferences

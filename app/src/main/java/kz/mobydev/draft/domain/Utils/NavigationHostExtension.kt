@@ -1,7 +1,7 @@
-package kz.mobydev.draft.presentation.ui
+package kz.qazaq.qarapkor.presentation.ui
 
 import androidx.fragment.app.Fragment
-import kz.mobydev.draft.domain.Utils.NavigationHostProvider
+import kz.qazaq.qarapkor.domain.Utils.NavigationHostProvider
 
 fun Fragment.provideNavigationHost(): NavigationHostProvider? {
     return try {

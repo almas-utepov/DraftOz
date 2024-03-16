@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.bottomsheet
+package kz.qazaq.qarapkor.presentation.ui.bottomsheet
 
 import android.app.Dialog
 import android.content.res.Configuration
@@ -18,15 +18,15 @@ import androidx.navigation.navOptions
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.util.Locale
 import kotlinx.coroutines.launch
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.network.api.ApiInterface
-import kz.mobydev.draft.data.network.api.ServiceBuilder
-import kz.mobydev.draft.data.network.model.SelectLanguageModel
-import kz.mobydev.draft.data.network.model.UserInfoRequest
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.BottomSheetLanguageBinding
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.fragmentMain.ProfileFragment
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.network.api.ApiInterface
+import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
+import kz.qazaq.qarapkor.data.network.model.SelectLanguageModel
+import kz.qazaq.qarapkor.data.network.model.UserInfoRequest
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.BottomSheetLanguageBinding
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.fragmentMain.ProfileFragment
 
 class SelectLanguage : BottomSheetDialogFragment() {
     private var binding: BottomSheetLanguageBinding? = null

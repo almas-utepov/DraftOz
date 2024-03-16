@@ -1,4 +1,4 @@
-package kz.mobydev.draft.domain.Utils
+package kz.qazaq.qarapkor.domain.Utils
 
 object Constants {
     var KEY_BUNDLE = "KEY_BUNDLE"

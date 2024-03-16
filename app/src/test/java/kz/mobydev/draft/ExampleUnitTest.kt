@@ -1,4 +1,4 @@
-package kz.mobydev.draft
+package kz.qazaq.qarapkor
 
 import org.junit.Test
 

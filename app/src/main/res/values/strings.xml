@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Draft</string>
+    <string name="app_name">Qarap Kor</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" tools:ignore="MissingTranslation">Hello blank fragment</string>
     <string name="title_activity_optional" tools:ignore="MissingTranslation">OptionalActivity</string>

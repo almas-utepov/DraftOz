@@ -1,13 +1,14 @@
-package kz.mobydev.draft.data
+package kz.qazaq.qarapkor.data
 
-import kz.mobydev.draft.R
-import kz.mobydev.draft.domain.model.WelcomePageInfoModel
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.domain.model.WelcomePageInfoModel
 
 object WelcomePageInfoList {
     var welcomePageSlidesInfoList = listOf(
-        WelcomePageInfoModel(R.drawable.welcome_back_1,"ÖZINŞE-ге қош келдің!","Фильмдер, телехикаялар, ситкомдар, анимациялық жобалар, телебағдарламалар мен реалити-шоулар, аниме және тағы басқалары"),
-        WelcomePageInfoModel(R.drawable.welcome_back_2,"ÖZINŞE-ге қош келдің!","Кез келген құрылғыдан қара Сүйікті фильміңді қосымша төлемсіз телефоннан, планшеттен, ноутбуктан қара"),
-        WelcomePageInfoModel(R.drawable.welcome_back_3,"ÖZINŞE-ге қош келдің!","Тіркелу оңай. Қазір тіркел де қалаған фильміңе қол жеткіз")
+        WelcomePageInfoModel(R.drawable.img_onbrdng1,"QarapKor-ге қош келдің!","Кез келген құрылғыдан қара \n" +
+                "Сүйікті фильміңді  қосымша төлемсіз телефоннан, планшеттен, ноутбуктан қара"),
+        WelcomePageInfoModel(R.drawable.onbrdng_nw,"QarapKor-ге қош келдің!","Әр-түрлі форматтағы, кез-келген жасқа келетін қазақша контенттер"),
+        WelcomePageInfoModel(R.drawable.img_onbrdng3,"QarapKor-ге қош келдің!","Тіркелу оңай. Қазір тіркел де қалаған фильміңе қол жеткіз")
 
     )
 

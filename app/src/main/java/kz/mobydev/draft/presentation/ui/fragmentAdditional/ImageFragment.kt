@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentAdditional
+package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
 import android.R
 import android.os.Bundle
@@ -12,9 +12,9 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.github.chrisbanes.photoview.PhotoView
 
-import kz.mobydev.draft.databinding.FragmentImageBinding
-import kz.mobydev.draft.presentation.ui.VM
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.databinding.FragmentImageBinding
+import kz.qazaq.qarapkor.presentation.ui.VM
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 
 class ImageFragment : Fragment() {
@@ -28,7 +28,7 @@ class ImageFragment : Fragment() {
             setNavigationVisibility(false)
             setNavigationToolBar(true,false)
             additionalToolBarConfig(true, btnExitVisible = false, titleVisible = true, title = "Cурет")
-            onClickListener(kz.mobydev.draft.R.id.action_imageFragment_to_aboutMovieFragment)
+            onClickListener(kz.qazaq.qarapkor.R.id.action_imageFragment_to_aboutMovieFragment)
         }
     }
 
@@ -40,7 +40,7 @@ class ImageFragment : Fragment() {
             setNavigationVisibility(false)
             setNavigationToolBar(true,false)
             additionalToolBarConfig(true, btnExitVisible = false, titleVisible = true, title = "Cурет")
-            onClickListener(kz.mobydev.draft.R.id.action_imageFragment_to_aboutMovieFragment)
+            onClickListener(kz.qazaq.qarapkor.R.id.action_imageFragment_to_aboutMovieFragment)
         }
     }
     override fun onCreateView(
@@ -56,7 +56,7 @@ class ImageFragment : Fragment() {
         val imageView = binding?.imageView as PhotoView
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                findNavController().navigate(kz.mobydev.draft.R.id.action_imageFragment_to_aboutMovieFragment)
+                findNavController().navigate(kz.qazaq.qarapkor.R.id.action_imageFragment_to_aboutMovieFragment)
             }
         }
         requireActivity().getOnBackPressedDispatcher().addCallback(viewLifecycleOwner, onBackPressedCallback)

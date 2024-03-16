@@ -1,7 +1,7 @@
-package kz.mobydev.draft.domain.usecase
+package kz.qazaq.qarapkor.domain.usecase
 
-import kz.mobydev.draft.data.network.model.FavoriteModel
-import kz.mobydev.draft.data.network.model.SimpleMovieModel
+import kz.qazaq.qarapkor.data.network.model.FavoriteModel
+import kz.qazaq.qarapkor.data.network.model.SimpleMovieModel
 
 sealed class ApiResult {
     data class Success(val model: FavoriteModel): ApiResult()

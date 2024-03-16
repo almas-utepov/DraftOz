@@ -3,11 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="300dp"
+    android:layout_marginStart="16dp"
     android:layout_height="wrap_content">
-
-    <com.google.android.material.imageview.ShapeableImageView
+    <com.bosphere.fadingedgelayout.FadingEdgeLayout
         android:id="@+id/imgMainMovie"
         android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:fel_edge="bottom"
+        app:fel_size_bottom="200dp"
+        android:background="@drawable/background_12dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgMainMovieRC"
+        android:layout_width="match_parent"
         android:layout_height="164dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -15,49 +26,52 @@
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/style_corner_for_image_12dp"
         app:srcCompat="@drawable/ic_main_icon_app" />
-
+    </com.bosphere.fadingedgelayout.FadingEdgeLayout>
     <TextView
         android:id="@+id/textTvMainMovieTittle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/sf_bold"
+        android:fontFamily="@font/poppins_semibold"
         android:text="TextView"
-        android:textColor="?attr/colorOnPrimary"
-        app:layout_constraintStart_toStartOf="@+id/imgMainMovie"
-        app:layout_constraintTop_toBottomOf="@+id/imgMainMovie" />
+        android:ellipsize="end"
+        android:lines="1"
+        android:textAllCaps="true"
+        android:gravity="start"
+        android:layout_marginBottom="-13dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/yellow"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/textTvMainMovieDescription"
+        app:layout_constraintEnd_toEndOf="@+id/imgMainMovie"
+        app:layout_constraintStart_toStartOf="@+id/imgMainMovie" />
 
     <TextView
         android:id="@+id/textTvMainMovieDescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:ellipsize="end"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:fontFamily="@font/sf_regular"
-        android:maxLines="2"
-        android:text="Шытырман оқиғалы мультсериал Елбасының «Ұлы даланың жеті қыры» бағдарламасы аясында жүз..."
-        android:textColor="?attr/colorOnSecondary"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imgMainMovie"
-        app:layout_constraintTop_toBottomOf="@+id/textTvMainMovieTittle" />
-
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        tools:text="Толықметрді мультфильмдер"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textTvImgMainMovieAbout"
+        app:layout_constraintEnd_toEndOf="@+id/imgMainMovie"
+        app:layout_constraintStart_toStartOf="@+id/textTvMainMovieTittle"/>
     <TextView
         android:id="@+id/textTvImgMainMovieAbout"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/text_main_movie_about"
         android:fontFamily="@font/sf_medium"
-        android:paddingStart="8dp"
-        android:paddingTop="4dp"
-        android:paddingEnd="8dp"
-        android:paddingBottom="4dp"
-        android:text="Толықметрді мультфильмдер"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/imgMainMovie"
-        app:layout_constraintTop_toTopOf="@+id/imgMainMovie" />
+        android:layout_marginEnd="20dp"
+        android:lines="1"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="Толықметрді мультфильмдер"
+        android:textColor="@color/grey_400"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textTvMainMovieTittle" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

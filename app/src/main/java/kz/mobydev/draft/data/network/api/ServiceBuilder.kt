@@ -1,4 +1,4 @@
-package kz.mobydev.draft.data.network.api
+package kz.qazaq.qarapkor.data.network.api
 
 
 import okhttp3.OkHttpClient

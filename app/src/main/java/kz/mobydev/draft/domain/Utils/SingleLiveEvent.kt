@@ -1,4 +1,4 @@
-package kz.mobydev.draft.domain.Utils
+package kz.qazaq.qarapkor.domain.Utils
 
 import android.util.Log
 import androidx.annotation.MainThread

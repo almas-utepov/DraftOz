@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'kz.mobydev.draft'
+    namespace 'kz.qazaq.qarapkor'
     compileSdk 33
 
     defaultConfig {
-        applicationId "kz.mobydev.draft"
+        applicationId "kz.qazaq.qarapkor"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -94,7 +94,7 @@ dependencies {
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
 
     //android-youtube-player - https://github.com/PierfrancescoSoffritti/android-youtube-player#core
-    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
+
 
     implementation 'com.github.codersrouteandroid:flexible-switch:1.0'
 
@@ -102,4 +102,5 @@ dependencies {
     //Zoom
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
 }

@@ -1,11 +1,11 @@
-package kz.mobydev.draft.domain.adapter
+package kz.qazaq.qarapkor.domain.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-import kz.mobydev.draft.databinding.ItemWelcomepageSliderBinding
-import kz.mobydev.draft.domain.model.WelcomePageInfoModel
+import kz.qazaq.qarapkor.databinding.ItemWelcomepageSliderBinding
+import kz.qazaq.qarapkor.domain.model.WelcomePageInfoModel
 
 class WelcomePageAdapter(private val welcomePageInfoList: List<WelcomePageInfoModel>) :
     RecyclerView.Adapter<WelcomePageAdapter.WelcomePageViewHolder>() {

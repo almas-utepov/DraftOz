@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.bottomsheet
+package kz.qazaq.qarapkor.presentation.ui.bottomsheet
 
 import android.content.SharedPreferences
 import android.graphics.Color
@@ -10,9 +10,9 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.BottomSheetExitBinding
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.BottomSheetExitBinding
 
 class ExitAccount :BottomSheetDialogFragment() {
 

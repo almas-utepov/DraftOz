@@ -1,14 +1,14 @@
-package kz.mobydev.draft.domain.adapter
+package kz.qazaq.qarapkor.domain.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import kz.mobydev.draft.data.network.model.FavoriteModel
-import kz.mobydev.draft.data.network.model.MainPageModel
-import kz.mobydev.draft.databinding.ItemFavoriteRcViewBinding
-import kz.mobydev.draft.databinding.ItemMainCategoryRcBinding
+import kz.qazaq.qarapkor.data.network.model.FavoriteModel
+import kz.qazaq.qarapkor.data.network.model.MainPageModel
+import kz.qazaq.qarapkor.databinding.ItemFavoriteRcViewBinding
+import kz.qazaq.qarapkor.databinding.ItemMainCategoryRcBinding
 
 class FavoriteMovieAdapter(
     private val favoriteModelList: FavoriteModel,

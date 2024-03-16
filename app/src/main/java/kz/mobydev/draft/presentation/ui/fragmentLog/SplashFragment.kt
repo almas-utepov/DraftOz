@@ -1,4 +1,4 @@
-package kz.mobydev.draft.presentation.ui.fragmentLog
+package kz.qazaq.qarapkor.presentation.ui.fragmentLog
 
 import android.os.Bundle
 import android.os.Handler
@@ -16,10 +16,10 @@ import kotlin.time.Duration.Companion.seconds
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-import kz.mobydev.draft.R
-import kz.mobydev.draft.data.preferences.PreferenceProvider
-import kz.mobydev.draft.databinding.FragmentSplashBinding
-import kz.mobydev.draft.presentation.ui.provideNavigationHost
+import kz.qazaq.qarapkor.R
+import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
+import kz.qazaq.qarapkor.databinding.FragmentSplashBinding
+import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 
 class SplashFragment : Fragment() {
 
