@@ -1,11 +1,10 @@
-package kz.mobydev.draft.presentation.ui.fragmentMain
+package kz.qazaq.qarapkor.presentation.ui.fragmentMain
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kz.qazaq.qarapkor.R
 import kz.qazaq.qarapkor.databinding.FragmentRecommendationBinding
 
 class RecommendationFragment : Fragment() {

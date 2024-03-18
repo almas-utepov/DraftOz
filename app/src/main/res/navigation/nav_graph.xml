@@ -200,7 +200,7 @@
     </fragment>
     <fragment
         android:id="@+id/recommendationFragment"
-        android:name="kz.mobydev.draft.presentation.ui.fragmentMain.RecommendationFragment"
+        android:name="kz.qazaq.qarapkor.presentation.ui.fragmentMain.RecommendationFragment"
         android:label="fragment_recommendation"
         tools:layout="@layout/fragment_recommendation" />
 

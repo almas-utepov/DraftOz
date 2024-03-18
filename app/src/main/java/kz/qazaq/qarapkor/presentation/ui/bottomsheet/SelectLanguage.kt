@@ -1,6 +1,5 @@
 package kz.qazaq.qarapkor.presentation.ui.bottomsheet
 
-import android.app.Dialog
 import android.content.res.Configuration
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -8,25 +7,17 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.navOptions
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.util.Locale
-import kotlinx.coroutines.launch
 import kz.qazaq.qarapkor.R
-import kz.qazaq.qarapkor.data.network.api.ApiInterface
-import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
 import kz.qazaq.qarapkor.data.network.model.SelectLanguageModel
-import kz.qazaq.qarapkor.data.network.model.UserInfoRequest
 import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
 import kz.qazaq.qarapkor.databinding.BottomSheetLanguageBinding
 import kz.qazaq.qarapkor.presentation.ui.VM
-import kz.qazaq.qarapkor.presentation.ui.fragmentMain.ProfileFragment
 
 class SelectLanguage : BottomSheetDialogFragment() {
     private var binding: BottomSheetLanguageBinding? = null

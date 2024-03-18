@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -15,13 +14,11 @@ import kz.qazaq.qarapkor.R
 import kz.qazaq.qarapkor.data.network.api.ApiInterface
 import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
 import kz.qazaq.qarapkor.data.network.model.CategoryMovieResponse
-import kz.qazaq.qarapkor.data.network.model.FavoriteModel
 import kz.qazaq.qarapkor.data.network.model.MovieIdModel
 import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
 import kz.qazaq.qarapkor.databinding.FragmentCategoriesBinding
 import kz.qazaq.qarapkor.domain.Utils.CustomDividerItemDecoration
 import kz.qazaq.qarapkor.domain.adapter.CategoryMovieAdapter
-import kz.qazaq.qarapkor.domain.adapter.FavoriteMovieAdapter
 import kz.qazaq.qarapkor.presentation.ui.VM
 import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 

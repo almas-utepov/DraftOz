@@ -1,6 +1,5 @@
 package kz.qazaq.qarapkor.presentation.ui.fragmentAdditional
 
-import android.R
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View

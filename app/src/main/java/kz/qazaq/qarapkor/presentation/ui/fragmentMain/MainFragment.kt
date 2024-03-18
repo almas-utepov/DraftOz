@@ -5,13 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import kz.qazaq.qarapkor.R
 import kz.qazaq.qarapkor.data.network.api.ApiInterface
@@ -21,8 +18,6 @@ import kz.qazaq.qarapkor.data.network.model.CategoryMovieResponse
 import kz.qazaq.qarapkor.data.network.model.GenreResponse
 import kz.qazaq.qarapkor.data.network.model.MainPageModel
 import kz.qazaq.qarapkor.data.network.model.MovieIdModel
-import kz.qazaq.qarapkor.data.network.model.MoviesMain
-import kz.qazaq.qarapkor.data.network.model.NamePage
 import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
 import kz.qazaq.qarapkor.domain.Utils.SingleLiveEvent
 import kz.qazaq.qarapkor.domain.adapter.GenreMainAdapter
@@ -31,9 +26,6 @@ import kz.qazaq.qarapkor.domain.adapter.MainPageCategoryAdapter
 import kz.qazaq.qarapkor.presentation.ui.VM
 import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost
 import kz.qazaq.qarapkor.databinding.FragmentMainBinding
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 
 class MainFragment : Fragment() {

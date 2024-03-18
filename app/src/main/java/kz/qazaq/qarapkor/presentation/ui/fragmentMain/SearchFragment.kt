@@ -1,6 +1,5 @@
 package kz.qazaq.qarapkor.presentation.ui.fragmentMain
 
-import android.os.Build
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -16,14 +15,12 @@ import kz.qazaq.qarapkor.R
 import kz.qazaq.qarapkor.data.network.api.ApiInterface
 import kz.qazaq.qarapkor.data.network.api.ServiceBuilder
 import kz.qazaq.qarapkor.data.network.model.CategoryId
-import kz.qazaq.qarapkor.data.network.model.CategoryMovieResponse
 import kz.qazaq.qarapkor.data.network.model.MovieIdModel
 import kz.qazaq.qarapkor.data.network.model.NamePage
 import kz.qazaq.qarapkor.data.network.model.SearchResponseModel
 import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
 import kz.qazaq.qarapkor.databinding.FragmentSearchBinding
 import kz.qazaq.qarapkor.domain.Utils.CustomDividerItemDecoration
-import kz.qazaq.qarapkor.domain.adapter.CategoryMovieAdapter
 import kz.qazaq.qarapkor.domain.adapter.SearchMovieAdapter
 import kz.qazaq.qarapkor.presentation.ui.VM
 import kz.qazaq.qarapkor.presentation.ui.provideNavigationHost

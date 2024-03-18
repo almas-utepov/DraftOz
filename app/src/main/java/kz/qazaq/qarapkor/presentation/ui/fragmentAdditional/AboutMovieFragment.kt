@@ -21,7 +21,6 @@ import kz.qazaq.qarapkor.data.network.model.ImageLink
 import kz.qazaq.qarapkor.data.network.model.LinkVideo
 import kz.qazaq.qarapkor.data.network.model.MovieIdModel
 import kz.qazaq.qarapkor.data.network.model.MovieInfoResponse
-import kz.qazaq.qarapkor.data.network.model.SeriesModel
 import kz.qazaq.qarapkor.data.preferences.PreferenceProvider
 import kz.qazaq.qarapkor.databinding.FragmentAboutMovieBinding
 import kz.qazaq.qarapkor.domain.adapter.ImageAdapter
