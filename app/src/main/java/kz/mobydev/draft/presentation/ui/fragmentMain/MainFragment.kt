@@ -254,15 +254,15 @@ class MainFragment : Fragment() {
                 vm.categoryMovie.value = CategoryId(9)
                 findNavController().navigate(R.id.categoriesFragment)
             }
-            val adapter =MainPageCategoryAdapter(item[3].movies, requireContext(), object :MainPageCategoryAdapter.ClickInterface{
-                override fun onItemClick(item: MainPageModel.MainPageModelItem.Movy) {
-                    vm.movieIdForAbout.value = MovieIdModel(item.id)
-                    findNavController().navigate(R.id.action_mainFragment_to_aboutMovieFragment)
-                }
-
-            })
-            binding?.textTvCategoryTitle5?.text = item[3].categoryName
-            binding?.rcViewCategoryMultSerial?.adapter = adapter
+//            val adapter =MainPageCategoryAdapter(item[3].movies, requireContext(), object :MainPageCategoryAdapter.ClickInterface{
+//                override fun onItemClick(item: MainPageModel.MainPageModelItem.Movy) {
+//                    vm.movieIdForAbout.value = MovieIdModel(item.id)
+//                    findNavController().navigate(R.id.action_mainFragment_to_aboutMovieFragment)
+//                }
+//
+//            })
+//            binding?.textTvCategoryTitle5?.text = item[3].categoryName
+//            binding?.rcViewCategoryMultSerial?.adapter = adapter
 
         }
     }
@@ -280,15 +280,15 @@ class MainFragment : Fragment() {
                 vm.categoryMovie.value = CategoryId(31)
                 findNavController().navigate(R.id.categoriesFragment)
             }
-            val adapter =MainPageCategoryAdapter(item[4].movies, requireContext(), object :MainPageCategoryAdapter.ClickInterface{
-                override fun onItemClick(item: MainPageModel.MainPageModelItem.Movy) {
-                    vm.movieIdForAbout.value = MovieIdModel(item.id)
-                    findNavController().navigate(R.id.action_mainFragment_to_aboutMovieFragment)
-                }
-
-            })
-            binding?.textTvCategoryTitle6?.text = item[4].categoryName
-            binding?.rcViewCategorySitcom?.adapter = adapter
+//            val adapter =MainPageCategoryAdapter(item[4].movies, requireContext(), object :MainPageCategoryAdapter.ClickInterface{
+//                override fun onItemClick(item: MainPageModel.MainPageModelItem.Movy) {
+//                    vm.movieIdForAbout.value = MovieIdModel(item.id)
+//                    findNavController().navigate(R.id.action_mainFragment_to_aboutMovieFragment)
+//                }
+//
+//            })
+//            binding?.textTvCategoryTitle6?.text = item[4].categoryName
+//            binding?.rcViewCategorySitcom?.adapter = adapter
 
         }
     }
